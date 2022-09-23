@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:hsl(217, 54%, 11%);
+    font-size: 18px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    width: 300px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+.container{
+    display: grid;
+    grid-template-columns: auto;
+    max-width: 40em;
+}
+/* IMG/TOP HOVER */
+.top{
+    position: relative;   
+    
+}
+img{
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: .5s ease-in-out;   
+}
+.view{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    display: block;
+    margin: 0 auto;
+    display: none;
+    z-index: 1;
+    cursor: pointer;
+    
+}
+.top:hover img{
+    opacity: 0.3;
+}
+.top:hover .view{
+    opacity: 1;
+    display: block;
+}
+.top:hover{
+    background-color:hsl(178, 100%, 50%);
+    opacity: 1;
+    border-radius: 10px;   
+}
+
+
+/* EQUILIBRIM #3429 */
+.equi{
+    margin-top: 20px;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.equi:hover{
+    color: hsl(178, 100%, 50%);
+}
+/* MIDDLE CONTENT EDIT */
+p{
+    margin:10px 0  ;
+    color: hsl(215, 51%, 70%);
+}
+h3{
+    margin: 20px 0;
+    color: hsl(178, 100%, 50%);
+}
+.days{
+    float: right;
+    color: hsl(215, 51%, 70%);
+}
+.name{
+    color: hsl(0, 0%, 100%);
+}
+.name:hover{
+    color:hsl(178, 100%, 50%);
+}
+.icon{
+    width: 30px;
+    border: 2px solid;
+    border-radius: 100%;    
+}
+.totalicon{
+    display: flex;
+    align-items: center;
+    word-spacing: 2px;
+}
+.creation{
+    color:hsl(215, 51%, 70%) ;
+    margin-left:20px ;
+}
+
+.eth{
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}

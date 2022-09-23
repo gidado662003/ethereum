@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.conatiner{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 30px auto;
+}
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.row{
+    display: grid;
+    grid-template-columns: auto ;
+    max-width: 40em;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
